@@ -1,0 +1,22 @@
+# Debug artifacts - can contain real phone numbers, names, and messages
+whatsapp_debug*
+*.png
+*.html
+!README.md
+
+# Chrome automation profile (contains your login session)
+whatsapp_chrome_profile/
+*chrome_profile*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
